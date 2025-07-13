@@ -191,12 +191,12 @@ Figure 24 provides an additional example of using SpaCy’s visual tool `displac
 
 ```text
 .
-├── data/
-│   └── tweet_eval/                # original and cleaned CSVs
-├── notebooks/
-│   └── Task2_Text_Emotion.ipynb   # preprocessing, EDA, modeling, NER
-├── Task2_Report.pdf               # original report document
-└── README_Task2.md                # this file
+└── Task2/
+    ├── README.md
+    ├── Training_task2.ipynb
+    ├── Training_task2_NER_part.ipynb
+    ├── cleaned_tokenized_tweets.zip
+    └── figures.zip
 ```
 
 ## How to Run
