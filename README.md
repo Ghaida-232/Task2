@@ -204,13 +204,13 @@ Figure 24 provides an additional example of using SpaCy’s visual tool `displac
 1. clone repo and install dependencies
 
    ```bash
-   git clone https://github.com/USERNAME/REPO_NAME.git
-   cd REPO_NAME
+   git clone https://github.com/Ghaida-232/Task2.git
+   cd Task2
    pip install pandas scikit-learn spacy matplotlib wordcloud
    python -m spacy download en_core_web_sm
    ```
 2. prepare data
-   run notebook `Task2_Text_Emotion.ipynb` or:
+   run notebook `Training _task2.ipynb` or:
 
    ```bash
    python preprocess.py --input data/tweet_eval/raw.csv --output data/cleaned.csv
